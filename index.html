@@ -1,14 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
   <link rel="stylesheet" href="main.css">
-  <title>Fullscreen Scrolling</title>
+  <title>Fullscreen scrolling </title>
 </head>
-<body>
-  
-  <script src="app.js"></script>
+
+<body class="fullscreen">
+
+  <header>
+    <div class="header__container fbx">
+      <i class="fas fa-bars"></i>
+      <div class="logo"><a href="#">imon channel</a></div>
+      <i class="fas fa-search"></i>
+    </div>
+  </header>
+
+  <div class="main__content">
+
+    <section data-title="Home" class="fbx"
+      style="background-image: url('https://images.unsplash.com/photo-1588379725366-232777d58919?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');">
+      <div class="sec_container home">
+        <h1>Fullscreen scrolling tutorial</h1>
+        <a href="https://unsplash.com/photos/hMHJYQlWQwU" class="sec__link">Learn more</a>
+      </div>
+    </section>
+
+    <section data-title="About us" class="fbx"
+      style="background-color: #ffa200; background-image: url('https://images.unsplash.com/photo-1588363970597-fc5debeecfc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');">
+      <div class="sec_container">
+        <h2>About us</h2>
+        <p class="sec__content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+          Et laudantium amet quod expedita repudiandae alias ducimus natus reiciendis<br>
+          recusandae sint consequuntur facere earum.
+        </p>
+        <a href="https://unsplash.com/photos/lddF6AokatM" class="sec__link">Learn more</a>
+      </div>
+    </section>
+
+    <section data-title="Services" class="fbx right"
+      style="background-color: #00d8e5; background-image: url('https://images.unsplash.com/photo-1588377845181-ab40e4a88d33?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80');">
+      <div class="sec_container">
+        <h2>Services</h2>
+        <p class="sec__content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+          Et laudantium amet quod expedita repudiandae alias ducimus natus reiciendis<br>
+          recusandae sint consequuntur facere earum.
+        </p>
+        <a href="https://unsplash.com/photos/1cZU21n9gR0" class="sec__link">Learn more</a>
+      </div>
+    </section>
+
+    <section data-title="Contact us" class="fbx"
+      style="background-color: #006c79; background-image: url('https://images.unsplash.com/photo-1588397290216-cbae9f2a226e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');">
+      <div class="sec_container">
+        <h2>Contact us</h2>
+        <p class="sec__content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+          Et laudantium amet quod expedita repudiandae alias ducimus natus reiciendis<br>
+          recusandae sint consequuntur facere earum.
+        </p>
+        <a href="https://unsplash.com/photos/bxM0yCxYAkY" class="sec__link">Learn more</a>
+      </div>
+    </section>
+
+  </div>
+
+
+
+<script src="app.js"></script>
 </body>
+
 </html>
